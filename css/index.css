@@ -131,109 +131,98 @@ table {
   box-sizing: border-box;
 }
 html,
-
 body {
   height: 100%;
 }
-
 header {
-    width: 100%;
+  width: 100%;
 }
-
-nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        text-decoration: none;
-        margin: 0 auto;
-    }
-    nav a {
-        padding: 20px;
-    }
-    .me {
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 20px;
-        margin: 30px auto;
-        background-color: black;
-    }
-    
-    .me .name {
-        font-size: 25px;
-        padding: 10px;
-    }
-
-    .me p {
-        color: lime;
-        font-size: 20px;
-        padding: 5px;
-    }
-
-    .me img {
-        width: 20%;
-        height: 20%;
-    }
-
-    .top-content {
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        margin: 0 auto;
-    }
-
-    .about-me {
-        width: 40%;
-        padding: 20px;
-        margin: 20px;
-        border: 1px solid black;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 30px auto;
-    }
-
-    .about-me h1 {
-        font-size: 40px;
-        font-weight: bold;
-        padding: 10px;
-        margin: 10px;
-    }
-
-    .about-me p {
-        font-size: 20px;
-    }
-
-    .skills {
-        width: 40%;
-        padding: 20px;
-        margin: 20px;
-        border: 1px solid black;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 30px auto;
-    }
-
-    .skills p {
-        font-size: 50px;
-        font-weight: bold;
-    }
-
-    .skills li {
-        font-size: 30px;
-    }
-
-    .work-history {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-        margin: 30px auto;
-    }
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-decoration: none;
+  margin: 0 auto;
+}
+header nav a {
+  padding: 20px;
+}
+.me {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 30px auto;
+  background-color: black;
+}
+.me .name {
+  font-size: 25px;
+  padding: 10px;
+}
+.me p {
+  color: lime;
+  font-size: 20px;
+  padding: 5px;
+}
+.me img {
+  width: 20%;
+  height: 20%;
+}
+.top-content {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.top-content .about-me {
+  width: 40%;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+.top-content .about-me h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lime;
+}
+.top-content .about-me h1 p {
+  font-size: 20px;
+  color: lime;
+}
+.top-content .skills {
+  width: 40%;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+.top-content .skills p {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lime;
+}
+.top-content .skills li {
+  font-size: 30px;
+  color: lime;
+}
